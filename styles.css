@@ -1,0 +1,107 @@
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  background-color: blanchedalmond;
+}
+
+.wrapper .title {
+  font-family: 'Ultra', serif;
+  margin: 3vh auto;
+  font-size: 100%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.wrapper .view-screen {
+  border: 3px solid #5a3804;
+  background-color: white;
+  width: 50%;
+  height: 20vh;
+  margin: 1vh auto;
+}
+
+.wrapper .keyboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 3vh auto;
+  width: 80%;
+  background-color: #000000;
+  border: 3px solid #242424;
+}
+
+.wrapper .keyboard .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.wrapper .keyboard .row .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.5vh 0.2vw;
+  padding: 0 5px;
+  width: auto;
+  height: 20px;
+  background-color: #707070;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: white;
+  letter-spacing: 2px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.wrapper .keyboard .row :hover {
+  background-color: #888888;
+  color: red;
+}
+
+.wrapper .keyboard .row .controls-button {
+  background-color: #525252;
+}
+
+.wrapper .keyboard .row .controls-button:hover {
+  background-color: #646464;
+}
+
+.wrapper .keyboard .row .shift {
+  width: 18%;
+}
+
+.wrapper .keyboard .row .space {
+  width: 50%;
+}
+/*# sourceMappingURL=styles.css.map */
