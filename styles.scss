@@ -1,0 +1,76 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    .title {
+        font-family: 'Ultra', serif;
+        margin: 3vh auto;
+        font-size: 100%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .view-screen {
+        border: 3px solid #5a3804;
+        background-color: rgb(255, 255, 255);
+        width: 50%;
+        height: 20vh;
+        margin: 1vh auto;
+    }
+    .keyboard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 3vh auto;
+        width: 80%;
+        background-color: #000000;
+        border: 3px solid #242424;
+        .row {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            .button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0.5vh 0.2vw;
+                padding: 0 5px;
+                width: auto;
+                height: 20px;
+                background-color: rgb(112, 112, 112);
+                color: white;
+                text-transform: uppercase;
+                font-size: 0.7rem;
+                color: white;
+                letter-spacing: 2px;
+                border-radius: 2px;
+                cursor: pointer;
+            }
+            :hover {
+                background-color: rgb(136, 136, 136);
+                color: red;
+            }
+            .controls-button {
+                background-color: rgb(82, 82, 82);
+            }
+            .controls-button:hover {
+                background-color: rgb(100, 100, 100);
+            }
+            .shift {
+                width: 18%;
+            }
+            .space {
+                width: 50%;
+            }
+
+        }
+    }
+}
+
+
+
+
+
